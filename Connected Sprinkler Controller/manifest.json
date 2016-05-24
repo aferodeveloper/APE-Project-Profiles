@@ -1,0 +1,14 @@
+{
+	"name": "Shield Sprinklers",
+	"createDate": 1456966588686,
+	"apeVersion": "0.9.3",
+	"originalProfileId": "",
+	"latestProfileId": "17c4281a-743e-48fb-a761-9118851fa74a",
+	"presentationProfileList": [
+		"e2b90ba2-ad95-4967-9ebf-9e1bc4340fee"
+	],
+	"presentationDirMap": {
+		"e2b90ba2-ad95-4967-9ebf-9e1bc4340fee": "1456966588686"
+	},
+	"debugBuild": true
+}

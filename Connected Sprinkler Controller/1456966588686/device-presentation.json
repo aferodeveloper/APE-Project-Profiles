@@ -1,0 +1,166 @@
+{
+	"active": true,
+	"createdTimestamp": 1459819032637,
+	"deviceProfileId": "17c4281a-743e-48fb-a761-9118851fa74a",
+	"friendlyName": "Default Presentation",
+	"presentationDefinition": {
+		"attributeOptions": {
+			"1024": {
+				"flags": [
+					"primaryOperation"
+				],
+				"label": "Valve 1",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On",
+							"state": "running"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off",
+							"state": "standby"
+						},
+						"match": "1"
+					}
+				]
+			},
+			"1026": {
+				"flags": [],
+				"label": "Valve 2",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On",
+							"state": "running"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off",
+							"state": "standby"
+						},
+						"match": "1"
+					}
+				]
+			},
+			"1028": {
+				"flags": [],
+				"label": "Valve 3",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On",
+							"state": "running"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off",
+							"state": "standby"
+						},
+						"match": "1"
+					}
+				]
+			},
+			"1030": {
+				"flags": [],
+				"label": "Valve 4",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On",
+							"state": "running"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off",
+							"state": "standby"
+						},
+						"match": "1"
+					}
+				]
+			}
+		},
+		"controls": [
+			{
+				"attributeMap": {
+					"value": 1024
+				},
+				"controlType": "menuControl",
+				"id": 1
+			},
+			{
+				"attributeMap": {
+					"value": 1026
+				},
+				"controlType": "menuControl",
+				"id": 2
+			},
+			{
+				"attributeMap": {
+					"value": 1028
+				},
+				"controlType": "menuControl",
+				"id": 3
+			},
+			{
+				"attributeMap": {
+					"value": 1030
+				},
+				"controlType": "menuControl",
+				"id": 4
+			}
+		],
+		"gauge": {
+			"background": {
+				"images": []
+			},
+			"displayRules": [],
+			"foreground": {
+				"images": [
+					{
+						"uri": "device_icon_water_sensor_detected.png"
+					}
+				]
+			}
+		},
+		"groups": [
+			{
+				"controls": [
+					1,
+					2,
+					3,
+					4
+				],
+				"gauge": {
+					"background": {
+						"images": []
+					},
+					"displayRules": [],
+					"foreground": {
+						"images": [
+							{
+								"uri": "device_control_icon_activity2.png"
+							}
+						]
+					},
+					"label": "",
+					"labelSize": ""
+				},
+				"groups": [],
+				"id": 1456968108948,
+				"label": "Valves"
+			}
+		],
+		"label": "Shield Sprinklers"
+	},
+	"presentationId": "e2b90ba2-ad95-4967-9ebf-9e1bc4340fee",
+	"valid": true
+}

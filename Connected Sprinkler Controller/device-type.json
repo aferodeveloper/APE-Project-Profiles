@@ -1,0 +1,11 @@
+{
+	"createdTimestamp": 1456968644644,
+	"description": "This profile will allow you to control a 4-valve sprinkler system using a Modulo and an Arduino Shield Relay Board",
+	"deviceTags": [],
+	"deviceTypeId": "379d8750-c5a6-4532-a9a1-7c2aeb7f76c8",
+	"disconnectNotificationLevel": "LOW",
+	"name": "Shield Sprinklers",
+	"partnerId": "",
+	"updatedTimestamp": 1458597079610,
+	"virtual": false
+}
