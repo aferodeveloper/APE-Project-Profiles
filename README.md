@@ -4,3 +4,5 @@ This repository contains Afero Profile Editor (aka "APE") profiles for Afero pro
 This repository contains profiles for the following projects:
 
 Connected Sprinkler Controller - http://www.instructables.com/id/Connected-Sprinkler-Controller-Powered-by-Afero/
+
+Parallax BoE-Bot Remote Control - http://www.instructables.com/id/Parallax-BoE-Bot-Remote-Control-Powered-by-Afero/
