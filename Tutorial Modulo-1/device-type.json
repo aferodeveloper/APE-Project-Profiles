@@ -1,0 +1,27 @@
+{
+	"name": "Tutorial Modulo Profile",
+	"description": "Simple GPIO demo for the Modulo board. Displays the state of the button from GPIO 3 and allows you to control the LED on GPIO 0.",
+	"createdTimestamp": 1449884750488,
+	"updatedTimestamp": 1524766126180,
+	"deviceTypeId": "79df8cce-3209-4387-828f-e85685443273",
+	"partnerId": "",
+	"disconnectNotificationLevel": "MEDIUM",
+	"virtual": false,
+	"deviceTags": [],
+	"moduleConfiguration": {
+		"id": "70ad45b7-01cb-4480-9ff4-4bf7038badb0",
+		"name": "Modulo-1",
+		"module": {
+			"id": "2ac32178-1a4a-4e27-b712-8cbda49e04dd",
+			"name": "ASR-1",
+			"createdTimestampMs": 1497546303479,
+			"updatedTimestampMs": 1497546303479
+		},
+		"minimumFirmwareVersions": {
+			"2003": "20578"
+		},
+		"developmentTarget": true,
+		"createdTimestampMs": 1497546414108,
+		"updatedTimestampMs": 1497546414108
+	}
+}
