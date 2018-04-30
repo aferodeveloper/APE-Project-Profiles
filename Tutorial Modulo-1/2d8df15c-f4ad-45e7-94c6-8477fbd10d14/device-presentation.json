@@ -1,0 +1,147 @@
+{
+	"active": true,
+	"valid": true,
+	"friendlyName": "Demo Modulo with Good Icons",
+	"createdTimestamp": 1449892545942,
+	"deviceProfileId": "35268818-8e8f-4da1-95e5-e686b61a73bb",
+	"presentationId": "2d8df15c-f4ad-45e7-94c6-8477fbd10d14",
+	"presentationDefinition": {
+		"label": "Tutorial Modulo Profile",
+		"attributeOptions": {
+			"1024": {
+				"label": "LED",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off"
+						},
+						"match": "1"
+					}
+				],
+				"flags": [
+					"primaryOperation"
+				]
+			},
+			"1030": {
+				"label": "Button",
+				"valueOptions": [
+					{
+						"apply": {
+							"label": "On"
+						},
+						"match": "0"
+					},
+					{
+						"apply": {
+							"label": "Off"
+						},
+						"match": "1"
+					}
+				],
+				"flags": []
+			}
+		},
+		"gauge": {
+			"foreground": {
+				"images": [
+					{
+						"uri": "device_icon_light4.png"
+					}
+				]
+			},
+			"background": {
+				"images": []
+			},
+			"displayRules": []
+		},
+		"groups": [
+			{
+				"controls": [
+					1
+				],
+				"gauge": {
+					"background": {
+						"images": []
+					},
+					"displayRules": [],
+					"foreground": {
+						"images": [
+							{
+								"uri": "device_control_icon_light.png"
+							}
+						]
+					},
+					"label": "",
+					"labelSize": ""
+				},
+				"groups": [],
+				"label": "LED",
+				"id": 1446325748686
+			},
+			{
+				"controls": [
+					2
+				],
+				"gauge": {
+					"background": {
+						"images": []
+					},
+					"displayRules": [],
+					"foreground": {
+						"images": [
+							{
+								"uri": "device_control_icon_chip.png"
+							}
+						]
+					},
+					"label": "",
+					"labelSize": ""
+				},
+				"groups": [],
+				"label": "Button",
+				"id": 1446325772732
+			}
+		],
+		"controls": [
+			{
+				"attributeMap": {
+					"value": 1024
+				},
+				"controlType": "menuControl",
+				"id": 1,
+				"version": 0,
+				"displayRules": [
+					{
+						"match": "*",
+						"apply": {
+							"enabled": true,
+							"viewStyle": "INLINE"
+						}
+					}
+				]
+			},
+			{
+				"attributeMap": {
+					"value": 1030
+				},
+				"controlType": "menuControl",
+				"id": 2,
+				"displayRules": [
+					{
+						"match": "*",
+						"apply": {
+							"enabled": true,
+							"viewStyle": "INLINE"
+						}
+					}
+				]
+			}
+		]
+	}
+}
