@@ -1,5 +1,5 @@
 
-#Contents
+# Contents
 This repository contains Afero Profile Editor (aka "APE") profiles for Afero projects we post on the developer site (https://developer.afero.io) as well as other places on the web.
 
 ## Tutorial Profiles
