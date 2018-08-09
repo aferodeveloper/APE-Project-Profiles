@@ -1,6 +1,6 @@
 {
 	"name": "Tutorial Modulo Profile",
-	"description": "Simple GPIO demo for the Modulo board. Displays the state of the button from GPIO 3 and allows you to control the LED on GPIO 0.",
+	"description": "Simple GPIO demo for the Modulo board. Allows you to control the LED on GPIO 0 and displays the state of the button from GPIO 3."
 	"createdTimestamp": 1449884750488,
 	"updatedTimestamp": 1524766126180,
 	"deviceTypeId": "79df8cce-3209-4387-828f-e85685443273",
