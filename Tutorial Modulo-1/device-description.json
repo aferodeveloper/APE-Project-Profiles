@@ -2,7 +2,7 @@
 	"schemaVersion": 2,
 	"deviceDescriptionId": "",
 	"partnerId": "",
-	"createdTimestamp": 1524766128912,
+	"createdTimestamp": 1547045158713,
 	"services": [
 		{
 			"id": 1,
@@ -16,7 +16,7 @@
 						"READ",
 						"WRITE"
 					],
-					"value": "1"
+					"value": "0"
 				},
 				{
 					"id": 1025,
@@ -26,7 +26,7 @@
 					"operations": [
 						"READ"
 					],
-					"value": "0"
+					"value": "256"
 				},
 				{
 					"id": 1030,
@@ -46,7 +46,7 @@
 					"operations": [
 						"READ"
 					],
-					"value": "69"
+					"value": "325"
 				},
 				{
 					"id": 2001,
@@ -222,7 +222,8 @@
 					"semanticType": "MCU Interface",
 					"dataType": "SINT8",
 					"operations": [
-						"READ"
+						"READ",
+						"MCU"
 					],
 					"value": "0",
 					"length": 1

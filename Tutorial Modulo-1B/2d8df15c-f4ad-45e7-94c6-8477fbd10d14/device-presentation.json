@@ -9,42 +9,43 @@
 		"label": "Tutorial Modulo Profile",
 		"attributeOptions": {
 			"1024": {
-				"flags": [
-					"primaryOperation"
-				],
 				"label": "LED",
 				"valueOptions": [
 					{
 						"apply": {
-							"label": "On"
+							"label": "On",
+							"state": "running"
 						},
-						"match": "0"
+						"match": "1"
 					},
 					{
 						"apply": {
 							"label": "Off"
 						},
-						"match": "1"
+						"match": "0"
 					}
+				],
+				"flags": [
+					"primaryOperation"
 				]
 			},
 			"1030": {
-				"flags": [],
 				"label": "Button",
 				"valueOptions": [
 					{
 						"apply": {
 							"label": "On"
 						},
-						"match": "0"
+						"match": "1"
 					},
 					{
 						"apply": {
 							"label": "Off"
 						},
-						"match": "1"
+						"match": "0"
 					}
-				]
+				],
+				"flags": []
 			}
 		},
 		"gauge": {

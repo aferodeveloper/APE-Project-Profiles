@@ -9,6 +9,8 @@
 #define AF_BOARD_QUANTA                                            2
 #define AF_BOARD_ABELO_2A                                          3
 #define AF_BOARD_POTENCO                                           4
+#define AF_BOARD_ABELO_2B                                          5
+#define AF_BOARD_MODULO_1B                                         6
 
 #define AF_BOARD                                   AF_BOARD_MODULO_1
 
@@ -92,8 +94,4 @@
 #define AF_SYSTEM_REBOOT_REASON_SZ                               100
 #define AF_SYSTEM_REBOOT_REASON_TYPE            ATTRIBUTE_TYPE_UTF8S
 
-// Attribute MCU Interface
-#define AF_SYSTEM_MCU_INTERFACE                                65021
-#define AF_SYSTEM_MCU_INTERFACE_SZ                                 1
-#define AF_SYSTEM_MCU_INTERFACE_TYPE            ATTRIBUTE_TYPE_SINT8
 //endregion

@@ -13,15 +13,16 @@
 				"valueOptions": [
 					{
 						"apply": {
-							"label": "On"
+							"label": "On",
+							"state": "running"
 						},
-						"match": "0"
+						"match": "1"
 					},
 					{
 						"apply": {
 							"label": "Off"
 						},
-						"match": "1"
+						"match": "0"
 					}
 				],
 				"flags": [
@@ -35,13 +36,13 @@
 						"apply": {
 							"label": "On"
 						},
-						"match": "0"
+						"match": "1"
 					},
 					{
 						"apply": {
 							"label": "Off"
 						},
-						"match": "1"
+						"match": "0"
 					}
 				],
 				"flags": []
@@ -121,7 +122,8 @@
 						"match": "*",
 						"apply": {
 							"enabled": true,
-							"viewStyle": "INLINE"
+							"viewStyle": "INLINE",
+							"inputType": "DEFAULT"
 						}
 					}
 				]
@@ -137,7 +139,8 @@
 						"match": "*",
 						"apply": {
 							"enabled": true,
-							"viewStyle": "INLINE"
+							"viewStyle": "INLINE",
+							"inputType": "DEFAULT"
 						}
 					}
 				]
