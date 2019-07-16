@@ -2,7 +2,7 @@
 	"schemaVersion": 2,
 	"deviceDescriptionId": "",
 	"partnerId": "",
-	"createdTimestamp": 1547045101372,
+	"createdTimestamp": 1563293018634,
 	"services": [
 		{
 			"id": 1,
@@ -26,7 +26,7 @@
 					"operations": [
 						"READ"
 					],
-					"value": "256"
+					"value": "0"
 				},
 				{
 					"id": 1030,
@@ -186,29 +186,6 @@
 					],
 					"value": null,
 					"length": 4
-				},
-				{
-					"id": 65016,
-					"semanticType": "Advertising Secret Duration",
-					"dataType": "SINT8",
-					"operations": [
-						"READ",
-						"WRITE",
-						"MCU"
-					],
-					"value": "5",
-					"length": 1
-				},
-				{
-					"id": 65017,
-					"semanticType": "Advertising Secret",
-					"dataType": "BYTES",
-					"operations": [
-						"READ",
-						"MCU"
-					],
-					"value": null,
-					"length": 32
 				},
 				{
 					"id": 65018,

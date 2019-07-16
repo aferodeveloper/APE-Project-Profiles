@@ -2,13 +2,16 @@
 	"active": true,
 	"valid": true,
 	"friendlyName": "Demo Modulo with Good Icons",
-	"createdTimestamp": 1449892545942,
-	"deviceProfileId": "35268818-8e8f-4da1-95e5-e686b61a73bb",
-	"presentationId": "2d8df15c-f4ad-45e7-94c6-8477fbd10d14",
+	"createdTimestamp": 1562627259149,
+	"deviceProfileId": "5f21a59d-e2d6-4545-a0a7-f7e100bc4de2",
+	"presentationId": "57af40c5-03e1-4c2a-8e65-e80c0a0f7b58",
 	"presentationDefinition": {
 		"label": "Tutorial Modulo Profile",
 		"attributeOptions": {
 			"1024": {
+				"flags": [
+					"primaryOperation"
+				],
 				"label": "LED",
 				"valueOptions": [
 					{
@@ -24,12 +27,10 @@
 						},
 						"match": "0"
 					}
-				],
-				"flags": [
-					"primaryOperation"
 				]
 			},
 			"1030": {
+				"flags": [],
 				"label": "Button",
 				"valueOptions": [
 					{
@@ -44,8 +45,7 @@
 						},
 						"match": "0"
 					}
-				],
-				"flags": []
+				]
 			}
 		},
 		"gauge": {
@@ -145,6 +145,7 @@
 					}
 				]
 			}
-		]
+		],
+		"layout": null
 	}
 }
